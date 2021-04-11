@@ -2,21 +2,17 @@
 	"name": "@konceiver/v-set",
 	"version": "0.1.0",
 	"description": "Set Implementation of Vee Store",
-	"homepage": "https://github.com/konceiver/v-set",
-	"bugs": {
-		"url": "https://github.com/konceiver/v-set/issues"
-	},
+	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:konceiver/v-set.git"
 	},
-	"license": "MIT",
 	"author": "Brian Faust <brian@konceiver.dev>",
+	"homepage": "https://github.com/konceiver/v-set",
+	"bugs": {
+		"url": "https://github.com/konceiver/v-set/issues"
+	},
 	"main": "dist/index",
-	"types": "dist/index",
-	"files": [
-		"dist"
-	],
 	"scripts": {
 		"build": "tease build",
 		"format": "tease format",
@@ -26,11 +22,15 @@
 		"specs": "tease specs",
 		"test": "tease test"
 	},
+	"files": [
+		"dist"
+	],
 	"dependencies": {
 		"@konceiver/v": "^1.0.0"
 	},
 	"devDependencies": {
 		"@konceiver/tease": "^1.6.1",
 		"@konceiver/v-test-suite": "^1.0.0"
-	}
+	},
+	"types": "dist/index"
 }
